@@ -1,0 +1,39 @@
+uuid: 7a34809a-dbf8-48ba-925e-7117f4dd707d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.store_locations
+  module:
+    - address
+id: node.store_locations.field_address
+field_name: field_address
+entity_type: node
+bundle: store_locations
+label: Address
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    country_code: US
+    langcode: ''
+    given_name: Cornell
+    family_name: Coulon
+    organization: ''
+    address_line1: 'One Trinity Place'
+    address_line2: ''
+    locality: 'San Antonio'
+    administrative_area: TX
+    postal_code: '78212'
+    additional_name: null
+    sorting_code: null
+    dependent_locality: null
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides: {  }
+  fields: {  }
+field_type: address
